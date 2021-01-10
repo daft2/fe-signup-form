@@ -1,0 +1,106 @@
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.3;
+  background-image: url("../../images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section {
+  padding: 3.8125rem 5.1875rem;
+}
+
+.section__content-text {
+  max-width: 35rem;
+}
+
+.section__content-text h1 {
+  font-size: 2rem;
+}
+
+.section__content-form {
+  max-width: 35rem;
+}
+
+.section__content-form .button-trial {
+  width: 100%;
+  background-color: #6055a5;
+  text-align: center;
+  display: inline-block;
+  padding: 1.25rem 7.125rem;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0.5rem rgba(62, 60, 73, 0.2);
+          box-shadow: 0 0.5rem rgba(62, 60, 73, 0.2);
+}
+
+.section__content-form .button-claim {
+  width: 100%;
+  text-align: center;
+  background-color: #38cc8c;
+  display: inline-block;
+  padding: 1.25rem 7.125rem;
+  border-radius: 0.625rem;
+  text-decoration: none;
+  -webkit-box-shadow: 0 0.2rem darkgreen;
+          box-shadow: 0 0.2rem darkgreen;
+}
+
+.section__content-form .register-form {
+  padding: 2rem;
+  margin-top: 1.25rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+.section__content-form .register-form input[type="text"] {
+  width: 100%;
+  padding: 1.1rem 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+}
+
+.text-white {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

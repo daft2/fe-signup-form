@@ -1,0 +1,53 @@
+.section {
+  padding: 3.8125rem 5.1875rem;
+  &__content-text {
+    max-width: 35rem;
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  &__content-form {
+    max-width: 35rem;
+    .button-trial {
+      width: 100%;
+      background-color: $blue;
+      text-align: center;
+      display: inline-block;
+      padding: 1.25rem 7.125rem;
+      border-radius: 0.625rem;
+      text-decoration: none;
+      box-shadow: 0 0.5rem $grayBlueShadow;
+    }
+
+    .button-claim {
+      width: 100%;
+      text-align: center;
+      background-color: $green;
+      display: inline-block;
+      padding: 1.25rem 7.125rem;
+      border-radius: 0.625rem;
+      text-decoration: none;
+      box-shadow: 0 0.2rem darkgreen;
+    }
+
+    .register-form {
+      padding: 2rem;
+      margin-top: 1.25rem;
+      background-color: white;
+      border-radius: 0.5rem;
+
+      input[type="text"] {
+        width: 100%;
+        padding: 1.1rem 1.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #eaeaea;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+
+.text-white {
+  color: white;
+}
